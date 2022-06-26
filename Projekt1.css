@@ -1,31 +1,82 @@
-#barre {
-    height: 25px;
+ #navbar {
+     height: 50px;
+ }
+
+ li {
+
+     margin-top: 10px;
+     margin-bottom: 10px;
+
+
+ }
+#slogan {
+    float: inline-end;
+    width: 30%;
+    margin-right: 20%;
+    align-items: baseline;
 }
 
-header {
+#logo {
+    width: 30%;
+    margin-left: 20%;
+}
+
+ul {
+    width: 60%;
+    align-items: flex-end;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+col {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+ h1 {
+    background-color: #00305e;
+        color: azure;
+        text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: x-large;
+    }
+    
+    a {
+        display: inline-block;
+        border-right: solid black 1px;
+    }
+    
+    #warum {
+        width: auto;
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    #vorteile {
+        width: auto;
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#angebot {
+    width: auto;
+    font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h1 {
-    padding-left: 20%;
-    padding-right: 20%;
-    text-align: center;
-    font-weight: bolder;
-}
 
-#navbarCollapse {
-    padding-left: 20%;
-    padding-right: 20%;
-    font-weight: bolder;
+#projekte {
+    width: auto;
     font-size: 16px;
-    }
-
-  .logo {
-    font-weight: bolder;
-    align-items: baseline;
-    }
-.slogan {
-    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-button {
-    display: flex;
-    }
+nav {
+    border-bottom: solid black 1px;
+    width: 60%;
+}
+.row {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+ul{
+    list-style:none;
+}

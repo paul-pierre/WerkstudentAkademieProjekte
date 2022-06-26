@@ -1,0 +1,49 @@
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.slogan {
+    float: right;
+    width: auto;
+}
+
+.logo {
+    width: auto;
+}
+
+header {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.col {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    align-items: baseline;
+}
+
+span {
+    border-bottom: 1px black;
+    border-right: 1px black;
+    padding-right: 5%;
+}
+
+#aufgabe {
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: #00305e;
+    color: white;
+    text-align: center;
+}
+
+.list-inline-item {
+    width: auto;
+    float: inline-end;
+    border-right: 1px black;
+}
