@@ -1,49 +1,43 @@
-ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-.slogan {
-    float: right;
-    width: auto;
-}
-
-.logo {
-    width: auto;
-}
-
-header {
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .col {
     margin-left: 20%;
     margin-right: 20%;
-    text-align: justify;
-    align-items: baseline;
+    width: 60%;
+}
+#spezialitäten {
+    font-size: 16px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:justify;
+}
+ #spt {
+     background-color: #00305e;
+     height: auto;
+}
+
+#slogan {
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 span {
-    border-bottom: 1px black;
-    border-right: 1px black;
-    padding-right: 5%;
+    border-right: solid black 1px;
+    margin-right: 5px;
+    margin-top: 55px;
+    margin-bottom: 55px;
 }
 
-#aufgabe {
-    font-size: 16px;
-    font-weight: bolder;
-    background-color: #00305e;
-    color: white;
-    text-align: center;
+.Link {
+    float: right;
 }
 
-.list-inline-item {
-    width: auto;
-    float: inline-end;
-    border-right: 1px black;
+li {
+    display: inline-block;
+    border-right: solid black 1px;
+    margin-right: 5px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+#navbar {
+    display: inline-block;
+    border-bottom: soloid black 1px;
 }
