@@ -1,43 +1,94 @@
-.col {
-    margin-left: 20%;
-    margin-right: 20%;
+/*ligne1*/
+.netzwerken {}
+
+.facebook,
+.xing {
+    border-right: 1px solid black;
+    height: fit-content;
+    padding: 0%;
+}
+
+.reseau {
     width: 60%;
+    margin-left: auto;
+        margin-right: auto;
 }
-#spezialitäten {
-    font-size: 16px;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align:justify;
+.linkedin {
+    border-right: none;
 }
- #spt {
-     background-color: #00305e;
-     height: auto;
+/*ligne2*/
+.logo-slogan {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flexbox;
+    flex-direction: row;
+    align-content: space-around;
 }
 
-#slogan {
+h5 {
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: 80px;
+    bottom: 100px;
+}
+
+.slogan {
+    text-align: end;
     float: right;
+    height: fit-content;
+        position: relative fixed;
+    }
+    
+    .logo {
+        width: 50%;
+        margin: 0%;
+        padding: 0%;
+        flex-direction: row;
+    }
+    
+    /*ligne3*/
+    
+    .keyvisual-image {
+        height: fit-content;
+    }
+    
+    .image {
+        width: 100%;
+        height: fit-content;
+    }
+    
+    /*ligne4*/
+    .title {
+        width: 60%;
+        color: white;
+        background-color: #00305e;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: x-large;
+    }
+    
+    /*ligne5*/
+    .navigation {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+}
+
+.header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-span {
-    border-right: solid black 1px;
-    margin-right: 5px;
-    margin-top: 55px;
-    margin-bottom: 55px;
+.navbar-brand {
+    border-right: none;
 }
 
-.Link {
-    float: right;
-}
-
+.elemente,
 li {
-    display: inline-block;
-    border-right: solid black 1px;
-    margin-right: 5px;
-    margin-top: 55px;
-    margin-bottom: 55px;
-}
-#navbar {
-    display: inline-block;
-    border-bottom: soloid black 1px;
-}
+    border-bottom: 1px solid black;
+        padding-top: 3px;
+        margin: 0px;
+    }
