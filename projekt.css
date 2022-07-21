@@ -6,14 +6,20 @@
     border-right: 1px solid black;
     height: fit-content;
     padding: 0%;
+    margin-right: 4px;
 }
 
 .reseau {
+    display: flex;
+        -webkit-box-flex: unset;
+        flex-direction: row;
+        justify-content: end;
     width: 60%;
     margin-left: auto;
-        margin-right: auto;
+    margin-right: auto;
 }
-.linkedin {
+.linkedin,
+.element4 {
     border-right: none;
 }
 /*ligne2*/
@@ -38,57 +44,57 @@ h5 {
 .slogan {
     text-align: end;
     float: right;
+    height: auto;
+    position: relative;
+}
+
+.logo {
+    width: 50%;
+    margin: 0%;
+    padding: 0%;
+    flex-direction: row;
+}
+
+/*ligne3*/
+    
+.keyvisual-image {
     height: fit-content;
-        position: relative fixed;
-    }
+}
     
-    .logo {
-        width: 50%;
-        margin: 0%;
-        padding: 0%;
-        flex-direction: row;
-    }
+.image {
+    width: 100%;
+    height: fit-content;
+}
     
-    /*ligne3*/
-    
-    .keyvisual-image {
-        height: fit-content;
-    }
-    
-    .image {
-        width: 100%;
-        height: fit-content;
-    }
-    
-    /*ligne4*/
-    .title {
-        width: 60%;
-        color: white;
-        background-color: #00305e;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: x-large;
-    }
-    
-    /*ligne5*/
-    .navigation {
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 16px;
+/*ligne4*/
+.title {
+    width: 60%;
+    color: white;
+    background-color: #00305e;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 27px;
+    text-align: justify;
 }
 
-.header {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+/*ligne5*/
+.navigation {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
 }
-
-.navbar-brand {
-    border-right: none;
+.element{
+    border-right: 1px solid black;
+    justify-items:auto;
 }
-
-.elemente,
-li {
-    border-bottom: 1px solid black;
-        padding-top: 3px;
-        margin: 0px;
-    }
+a{
+    font-size: 24.7px;
+    text-align: justify;
+}
+.element1{
+    border-right: 1px solid black;
+    font-size: 24.7px;
+    padding-left: 0%;
+    margin-bottom: 0%;
+}
