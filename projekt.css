@@ -1,13 +1,4 @@
 /*ligne1*/
-.netzwerken {}
-
-.facebook,
-.xing {
-    border-right: 1px solid black;
-    height: fit-content;
-    padding: 0%;
-    margin-right: 4px;
-}
 
 .reseau {
     display: flex;
@@ -18,18 +9,26 @@
     margin-left: auto;
     margin-right: auto;
 }
-.linkedin,
-.element4 {
-    border-right: none;
+.linkedin-img {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    align-items: flex-end;
+}
+
+.facebook-img,
+.xing-img {
+    border-right: 1px solid black;
+    margin-right: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 /*ligne2*/
 .logo-slogan {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    display: flexbox;
-    flex-direction: row;
-    align-content: space-around;
+    margin-top: 5px;
+        margin-bottom: 5px;
 }
 
 h5 {
@@ -38,7 +37,7 @@ h5 {
     margin: 0px;
     position: relative;
     top: 80px;
-    bottom: 100px;
+    bottom: 105px;
 }
 
 .slogan {
@@ -87,14 +86,25 @@ h5 {
 .element{
     border-right: 1px solid black;
     justify-items:auto;
+    margin-top: 15px;
+        margin-bottom: 15px;
+        margin-right: 25px;
 }
 a{
-    font-size: 24.7px;
+    font-size: 20px;
     text-align: justify;
+    margin-right: 25px;
 }
-.element1{
-    border-right: 1px solid black;
-    font-size: 24.7px;
-    padding-left: 0%;
-    margin-bottom: 0%;
+nav {
+    border-bottom: 1px solid black;
+}
+
+.element4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-right: none;
+}
+
+ul {
+    align-items: center;
 }
