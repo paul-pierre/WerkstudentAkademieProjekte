@@ -1,57 +1,55 @@
+
 /*ligne1*/
 
 .reseau {
     display: flex;
-        -webkit-box-flex: unset;
-        flex-direction: row;
+    flex-direction: row;
         justify-content: end;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
-.linkedin-img {
-    margin-top: 8px;
-    margin-bottom: 8px;
-    align-items: flex-end;
+.linkedin-img, .linkedin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
 }
 
 .facebook-img,
 .xing-img {
     border-right: 1px solid black;
     margin-right: 15px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    
+.xing-img {
+    margin-left: 8px;
 }
 /*ligne2*/
 .logo-slogan {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5px;
-        margin-bottom: 5px;
+    align-items: baseline;
 }
 
-h5 {
-    width: 50%;
-    padding: 0px;
+.p-slogan {
     margin: 0px;
-    position: relative;
-    top: 80px;
-    bottom: 105px;
+    width: 100%;
 }
 
 .slogan {
     text-align: end;
     float: right;
-    height: auto;
-    position: relative;
+    width: 50%;
 }
 
 .logo {
     width: 50%;
     margin: 0%;
     padding: 0%;
-    flex-direction: row;
 }
 
 /*ligne3*/
@@ -85,10 +83,11 @@ h5 {
 }
 .element{
     border-right: 1px solid black;
-    justify-items:auto;
+    align-items: center;
+    text-align: justify;
     margin-top: 15px;
-        margin-bottom: 15px;
-        margin-right: 25px;
+    margin-bottom: 15px;
+    margin-right: 25px;
 }
 a{
     font-size: 20px;
@@ -97,6 +96,8 @@ a{
 }
 nav {
     border-bottom: 1px solid black;
+    text-align: right;
+    align-items: flex-end;
 }
 
 .element4 {
@@ -104,7 +105,6 @@ nav {
     margin-bottom: 15px;
     border-right: none;
 }
-
 ul {
-    align-items: center;
+    margin-right: 0%;
 }
