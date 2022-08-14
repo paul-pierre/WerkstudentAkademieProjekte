@@ -1,0 +1,146 @@
+@media screen and (max-width:900px) {
+    .logo-slogan {
+        margin: 0 auto 10px 0;
+        display: block;
+        flex-direction: row;
+    }
+
+    .reseau {
+        margin: 0 auto 10px 0;
+        display: block;
+        flex-direction: row;
+    }
+
+    .title {
+        margin: 0 auto 10px 0;
+        display: block;
+        flex-direction: row;
+    }
+
+    .navigation {
+        margin: 0 auto 10px 0;
+        display: block;
+        flex-direction: row;
+    }
+}
+
+/*ligne1*/
+
+.reseau {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linkedin-img,
+.linkedin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.facebook-img,
+.xing-img {
+    border-right: 1px solid black;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.xing-img {
+    margin-left: 8px;
+}
+
+/*ligne2*/
+.logo-slogan {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: baseline;
+}
+
+.slogan {
+    float: right;
+    width: 50%;
+}
+
+.p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    text-align: right;
+    position: relative fixed;
+}
+
+.logo {
+    width: 50%;
+    margin: 0%;
+    padding: 0%;
+}
+
+/*ligne3*/
+
+.keyvisual-image {
+    height: fit-content;
+}
+
+.image {
+    width: 100%;
+    height: fit-content;
+}
+
+/*ligne4*/
+.title {
+    width: 60%;
+    color: white;
+    background-color: #00305e;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 27px;
+    text-align: justify;
+}
+
+/*ligne5*/
+.navigation {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+
+.element {
+    border-right: 1px solid black;
+    align-items: center;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 25px;
+}
+
+a {
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 25px;
+}
+
+nav {
+    width: 100%;
+    border-bottom: 1px solid black;
+    text-align: right;
+    align-items: flex-end;
+}
+
+.element4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-right: none;
+}
+
+ul {
+    margin-right: 0%;
+}
